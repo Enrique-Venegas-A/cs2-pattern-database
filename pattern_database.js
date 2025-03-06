@@ -264,9 +264,7 @@ const PATTERN_STYLES = {
   },
 };
 
-(function () {
-  window.CS2_KNIFE_IDS = KNIFE_IDS;
-  window.CS2_PAINT_IDS = PAINT_IDS;
+(function () {  
   window.CS2_PATTERN_DATABASE = PATTERN_DATABASE;
   window.CS2_PATTERN_STYLES = PATTERN_STYLES;
 })();
