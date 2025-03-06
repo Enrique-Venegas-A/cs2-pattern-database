@@ -9,7 +9,6 @@ const PAINT_IDS = {
   DOPPLER_PHASE_2: 419,
 };
 
-
 const PATTERN_DATABASE = {
   [KNIFE_IDS.KARAMBIT]: {
     [PAINT_IDS.MARBLE_FADE]: {
@@ -163,8 +162,128 @@ const PATTERN_DATABASE = {
   },
 };
 
+const PATTERN_STYLES = {
+  [PAINT_IDS.MARBLE_FADE]: {
+    'F&I Tier 1': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff0000, #0000ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 2': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff1a1a, #1a1aff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 3': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff3333, #3333ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 4': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff4d4d, #4d4dff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 5': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff6666, #6666ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 6': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff8080, #8080ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 7': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff9999, #9999ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 8': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffb3b3, #b3b3ff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 9': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffcccc, #ccccff)',
+      fontSize: '1.1em',
+    },
+    'F&I Tier 10': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffe6e6, #e6e6ff)',
+      fontSize: '1.1em',
+    },
+    'Max Fake': {
+      color: '#FFFFFF',
+      bgColor: '#800080',
+      fontSize: '1em',
+    },
+    FFI: {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff6b3a, #3a7bff)',
+      fontSize: '1em',
+    },
+  },
+  [PAINT_IDS.DOPPLER_PHASE_1]: {
+    'Max Pink Tip - Tier 1': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff45a4, #ff0083)',
+      fontSize: '1.1em',
+    },
+    'Max Pink Tip - Tier 2': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff69b4, #ff1493)',
+      fontSize: '1.1em',
+    },
+    'Max Pink Tip - Tier 3': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff85b4, #ff3393)',
+      fontSize: '1.1em',
+    },
+    'Max Pink Tip - Tier 4': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffa0c4, #ff5ca3)',
+      fontSize: '1.1em',
+    },
+    'Max Pink Tip - BTA': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffb9d4, #ff7fb3)',
+      fontSize: '1.1em',
+    },
+  },
+  [PAINT_IDS.DOPPLER_PHASE_2]: {
+    'Max Pink - Tier 1': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff45a4, #ff0083)',
+      fontSize: '1.1em',
+    },
+    'Max Pink - Tier 2': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff69b4, #ff1493)',
+      fontSize: '1.1em',
+    },
+    'Max Pink - Tier 3': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ff85b4, #ff3393)',
+      fontSize: '1.1em',
+    },
+    'Max Pink - Tier 4': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffa0c4, #ff5ca3)',
+      fontSize: '1.1em',
+    },
+    'Max Pink - BTA': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #ffb9d4, #ff7fb3)',
+      fontSize: '1.1em',
+    },
+  },
+};
+
 (function () {
   window.CS2_KNIFE_IDS = KNIFE_IDS;
   window.CS2_PAINT_IDS = PAINT_IDS;
   window.CS2_PATTERN_DATABASE = PATTERN_DATABASE;
+  window.CS2_PATTERN_STYLES = PATTERN_STYLES;
 })();
