@@ -236,6 +236,31 @@ const PATTERN_STYLES = {
     },
   },
   [PAINT_IDS.DOPPLER_PHASE_1]: {
+    'Fake Black Pearl - Max': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #000000, #12062c)',
+      fontSize: '1.1em',
+    },
+    'Fake Black Pearl - 2': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #080215, #1c0940)',
+      fontSize: '1.1em',
+    },
+    'Fake Black Pearl - 3': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #0f0328, #250d54)',
+      fontSize: '1.1em',
+    },
+    'Fake Black Pearl - 4': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #170540, #2f1068)',
+      fontSize: '1.1em',
+    },
+    'Fake Black Pearl - BTA': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #1f0652, #38147d)',
+      fontSize: '1.1em',
+    },
     'Max Pink Tip - Tier 1': {
       color: '#FFFFFF',
       bgColor: 'linear-gradient(to right, #ff45a4, #ff0083)',
