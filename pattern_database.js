@@ -575,36 +575,35 @@ const PATTERN_STYLES = {
       textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
       fontWeight: 'bold',
     },
-  },[PAINT_IDS.GAMMA_DOPPLER_PHASE_3]: {
-    [PAINT_IDS.GAMMA_DOPPLER_PHASE_1]: {
-      'Diamond Gem - Tier 1': {
-        color: '#FFFFFF',
-        bgColor: 'linear-gradient(to right, #00416a, #00703d)',
-        fontSize: '1.1em',
-        textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
-        fontWeight: 'bold',
-      },
-      'Diamond Gem - Tier 2': {
-        color: '#FFFFFF',
-        bgColor: 'linear-gradient(to right, #005384, #008c4d)',
-        fontSize: '1.1em',
-        textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
-        fontWeight: 'bold',
-      },
-      'Diamond Gem - Tier 3': {
-        color: '#FFFFFF',
-        bgColor: 'linear-gradient(to right, #00659e, #00a85c)',
-        fontSize: '1.1em',
-        textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
-        fontWeight: 'bold',
-      },
-      'Diamond Gem - BTA': {
-        color: '#FFFFFF',
-        bgColor: 'linear-gradient(to right, #0077b8, #00c46c)',
-        fontSize: '1.1em',
-        textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
-        fontWeight: 'bold',
-      },
+  },
+  [PAINT_IDS.GAMMA_DOPPLER_PHASE_1]: {
+    'Diamond Gem - Tier 1': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #00416a, #00703d)',
+      fontSize: '1.1em',
+      textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
+      fontWeight: 'bold',
+    },
+    'Diamond Gem - Tier 2': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #005384, #008c4d)',
+      fontSize: '1.1em',
+      textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
+      fontWeight: 'bold',
+    },
+    'Diamond Gem - Tier 3': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #00659e, #00a85c)',
+      fontSize: '1.1em',
+      textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
+      fontWeight: 'bold',
+    },
+    'Diamond Gem - BTA': {
+      color: '#FFFFFF',
+      bgColor: 'linear-gradient(to right, #0077b8, #00c46c)',
+      fontSize: '1.1em',
+      textShadow: '1px 1px 2px rgba(0,0,0,0.8)',
+      fontWeight: 'bold',
     },
   },
   [PAINT_IDS.GAMMA_DOPPLER_PHASE_3]: {
